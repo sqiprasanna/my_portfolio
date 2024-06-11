@@ -99,7 +99,7 @@ const mainProjects = [
   },
   {
     id: "biomedical-relation-extraction",
-    name: "Biomedical Relation Extraction Using Knowledge Graphs",
+    name: "Biomedical Relation Extraction Using LLMs and Knowledge Graphs",
     description: "This project enhances biomedical NLP by comparing the performance of established models like BioBERT against newer models such as Gemma-2b, Gemma-7b, and Llama2-7b, on benchmark datasets. It aims to improve binary relation classification and integrates findings into knowledge graphs to map complex relationships.",
     techStack: [
       "Python", 

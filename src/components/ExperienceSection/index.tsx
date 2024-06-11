@@ -57,11 +57,13 @@ function ExperienceSection() {
     <time className="font-caveat font-medium text-amber-500">Jan 2020 - June 2020</time>
   </div>
   </div>
-  <ul className="list-disc text-slate-500 space-y-1 pl-5">
-  <li> Deployed YOLOv4 on AWS with Redis, achieving 95% accuracy for real-time mobile usage detection.</li>
-    <li>Utilized R to enhance bus battery efficiency by 15% and reduce costs by 10%.</li>
-    <li>Developed and trained a Super-Resolution Generative Adversarial Network (SRGAN) using PyTorch to enhance low-resolution images to high-resolution quality </li>
-  </ul> 
+      <ul className="list-disc text-slate-500 space-y-1 pl-5">
+        <li>	Innovated a real-time cell phone usage detection system using YOLOv4, achieving a 0.77 mAP, demonstrating the ability to apply state-of-the-art object detection methods to solve practical problems with high precision and recall rates (93.8% precision, 92.5% recall). </li>
+        <li>	Led the creation of a custom 2,000-image dataset and optimized model performance through rigorous A/B testing, resulting in the integration of a highly efficient detection model into the Flutura AI platform, Cerebra, enhancing real-time surveillance capabilities. </li>
+        <li>	Engineered and deployed a high-performance ETL pipeline for seamless data ingestion in live CCTV monitoring systems, achieving low-latency detection (~18 FPS), showcasing expertise in real-time data processing and application in operational settings.  </li>
+        <li>Utilized R to enhance bus battery efficiency by 15% and reduce costs by 10%.</li>
+        <li>Developed and trained a Super-Resolution Generative Adversarial Network (SRGAN) using PyTorch to enhance low-resolution images to high-resolution quality </li>
+      </ul> 
     </div>
     
 </div>
@@ -82,12 +84,12 @@ function ExperienceSection() {
   </div>
   
   <ul className="list-disc text-slate-500 space-y-1 pl-5">
-    <li>Streamlined 10M+ records into batch and streaming pipelines, boosting data handling into BigQuery.</li>
-    <li>Boosted sales by $20M with advanced ML models(XGBoost, LSTM) in customer engagement.</li>
-    <li>Crafted a 97% accurate Writer lookalike model using PU Learning with XGBoost, enhancing customer matching.</li>
-    <li>Optimized code efficiency by 1.5x during productionization, ensuring faster execution and improved overall performance</li>
-    <li>Merged ETL with ML for clear data insights, improving stakeholder communication.</li>
-
+    <li>	Led redesign of customer engagement strategy, implementing sophisticated ML models like LSTM and XGBoost which enhanced sales forecasting and drove a $20M revenue increase while improving lead qualification by 15%.</li>
+    <li>	Optimized portfolio management algorithms using the PuLP library, tripling efficiency and boosting sales by 20%.</li>
+    <li>	Developed a Writer lookalike model with 97% accuracy by combining Positive-Unlabeled learning with XGBoost, packaged in Docker for efficient scaling, and orchestrated using Kubernetes.</li>
+    <li>	Collaborated with cross functional teams to merge ETL pipelines with ML solutions, leveraging Excel and Matplotlib for data visualization to communicate complex data and insights to stakeholders.</li>
+    <li>	Devised and deployed ML and DL-based triggers, including LSTM and XGBoost algorithms, achieving a significant 1.5-time boost in code efficiency and enhancing sales predictions with SHAP insights.</li>
+    <li>	Crafted an ML-based solution for predicting patient therapy changes using a genetic algorithm for feature extraction from patient journeys, boosting prediction accuracy.</li>
   </ul>    
   </div>
 </div>
@@ -113,63 +115,6 @@ function ExperienceSection() {
   </ul>
       </div>
 </div>
-{/* 
-<div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-    <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 text-slate-500  shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="200.000000pt" height="200.000000pt" viewBox="0 0 200.000000 200.000000" preserveAspectRatio="xMidYMid meet">
-  <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-    <path d="M0 1000 l0 -1000 1000 0 1000 0 0 1000 0 1000 -1000 0 -1000 0 0
--1000z m1111 593 c90 -88 109 -112 109 -137 0 -73 -65 -87 -125 -26 -21 22
--43 40 -47 40 -4 0 -8 -155 -8 -345 l0 -345 -25 -16 c-48 -31 -66 -15 -187
-161 -62 90 -116 164 -120 165 -4 0 -9 -71 -10 -157 l-3 -157 -27 -16 c-25 -13
--31 -13 -55 0 l-28 16 0 274 0 275 26 9 c52 18 69 3 189 -172 l115 -167 3 239
-c1 131 0 241 -3 244 -2 3 -27 -16 -54 -41 -29 -27 -60 -47 -72 -47 -33 0 -59
-29 -59 65 0 26 16 47 109 138 85 85 114 107 136 107 22 0 51 -22 136 -107z
-m-647 -271 c15 -17 16 -48 14 -283 l-3 -263 -27 -16 c-25 -13 -31 -13 -55 0
-l-28 16 -3 266 c-2 232 0 268 14 282 21 22 67 20 88 -2z m974 -13 c110 -54
-162 -142 162 -268 0 -115 -66 -213 -175 -263 -40 -17 -73 -23 -160 -26 -99 -4
--113 -2 -135 16 l-25 20 0 262 c0 247 1 262 19 276 15 10 51 14 136 14 110 0
-120 -2 178 -31z m-916 -663 c24 -13 32 -13 57 0 63 32 101 -16 94 -120 -3 -56
--6 -61 -28 -53 -11 5 -15 21 -15 61 0 64 -19 93 -50 76 -15 -8 -20 -24 -22
--73 -3 -54 -5 -62 -23 -62 -18 0 -20 8 -23 62 -3 69 -18 91 -51 74 -16 -9 -21
--23 -23 -74 -3 -54 -5 -62 -23 -62 -18 0 -20 8 -23 83 -2 67 0 83 13 88 8 4
-21 2 28 -4 8 -7 18 -6 31 4 24 17 25 17 58 0z m333 0 c39 -17 55 -42 55 -88 0
--67 -60 -110 -124 -88 -44 14 -66 44 -66 88 0 45 16 71 53 87 40 18 41 18 82
-1z m248 -14 c13 -12 17 -31 17 -89 0 -65 -2 -73 -19 -73 -16 0 -19 10 -23 66
--4 73 -19 92 -53 70 -16 -11 -21 -26 -23 -75 -3 -53 -6 -61 -22 -61 -18 0 -20
-7 -20 90 0 72 3 90 14 90 8 0 17 -4 21 -9 3 -6 16 -4 31 4 28 14 49 11 77 -13z
-m191 14 c25 -10 37 -24 46 -51 7 -20 8 -41 4 -45 -5 -5 -38 -10 -73 -12 -63
--3 -64 -4 -46 -21 13 -13 26 -17 44 -13 48 12 56 11 56 -4 0 -8 -13 -21 -29
--29 -23 -11 -36 -11 -68 -2 -88 27 -83 162 7 184 11 3 21 5 23 6 1 0 18 -5 36
--13z m141 -53 c11 -28 23 -55 27 -58 4 -4 15 19 24 50 18 57 39 79 54 55 8
--12 -58 -195 -86 -237 -10 -16 -24 -23 -44 -23 -37 0 -41 26 -6 39 37 15 37
-45 1 128 -18 42 -31 83 -28 90 11 27 37 7 58 -44z"/>
-    <path d="M1230 1050 l0 -170 55 0 c70 0 112 17 152 63 39 44 50 95 33 150 -24
-80 -97 127 -197 127 l-43 0 0 -170z"/>
-    <path d="M787 608 c-28 -22 -32 -63 -8 -87 24 -24 40 -26 66 -7 37 27 15 106
--30 106 -6 0 -19 -6 -28 -12z"/>
-    <path d="M1228 609 c-31 -17 -20 -29 27 -29 46 0 54 7 33 28 -15 15 -37 15
--60 1z"/>
-  </g>
-</svg>
-
-    </div>
-    <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
-    <div className="mb-4">
-    <div className="font-bold text-slate-900">Software Development Engineer</div>
-  <div className="flex justify-between items-center">
-    <div className="font-bold text-slate-900">INDmoney</div>
-    <time className="font-caveat font-medium text-amber-500">May 2022 - August 2023</time>
-  </div>
-  </div>
-  <ul className="list-disc text-slate-500 space-y-1 pl-5">
-    <li>Perfected MF-Central integration, delivering 100% accurate real-time market updates and enhanced investor insights.</li>
-    <li>Boosted backend GoLang test automation by 80% and established a dynamic error notification system with NewRelic.</li>
-    <li>Scaled user base support to 1 Million daily customers, ensuring stable cross-functional system performance.</li>
-    <li>Specialized in Kafka, PostgreSQL, Docker, and AWS services (SQS, S3, ECS) to elevate operational efficiency.</li>
-  </ul>
-</div> 
- </div> */}
 
 <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
     <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
