@@ -44,6 +44,14 @@ const mainProjects = [
     techStack: ["Flask", "ChatGPT API", "Weaviate", "QLoRA", "LLaMA-2", "Python", "Knowledge Graphs", "NLP"],
     imgURL: "/images/biomedical-relation-extraction.png",
     githubLink: `https://github.com/sqiprasanna/biomedical-relation-extraction`
+  },
+  {
+    id: "uc-berkeley-ai-hackathon",
+    name: "UC Berkeley AI Hackathon using LLMs",
+    description: `Developed "HireMeAI" at UC Berkeley AI Hackathon, a platform using LLMs like OpenAI API, Anthropic Claude 3 and React, Flask, MongoDB for real-time interview scheduling for Hiring Managers, resume building, and personalized feedback for candidates, demonstrating scalability and potential for expansion.`,
+    techStack: ["React", "Flask", "MongoDB", "OpenAI API", "Antropic Claude 3", "LMNT", "Python", "AI", "LLMs"],
+    imgURL: "/images/job-interview.jpg",
+    // githubLink: `https://github.com/sqiprasanna/biomedical-relation-extraction`
   }
 ];
 

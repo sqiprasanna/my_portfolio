@@ -30,15 +30,15 @@ function ExperienceSection() {
     <div className="mb-4">
     <div className="font-bold text-slate-900">Data Science Intern</div>
   <div className="flex justify-between items-center">
-    <div className="font-bold text-slate-900">Jot Arthur Web Services</div>
+    <div className="font-bold text-slate-900">Ericsson</div>
     <time className="font-caveat font-medium text-amber-500">May 2019 - December 2019</time>
   </div>
   </div>
   <ul className="list-disc text-slate-500 space-y-1 pl-5">
     <li>Engineered an Image Search Engine with Python & OpenCV.</li>
-    <li>Developed a facial expression modifier using StarGAN, improved model accuracy using AutoKeras and Neural Architecture Search </li>
-    <li>Designed an object detection system for auto rickshaws on Indian roads, employing single-shot detection techniques.</li>
-    <li>Developed real-time algorithm for communication via eyelid movements in a video sequence using eye aspect ratio, OpenCV, and Python.</li>
+    <li>Implemented transfer learning methodologies within the TensorFlow framework to train on custom datasets, attaining remarkable model accuracy of 98% and an F1 score of 0.95.</li> 
+    <li>Optimized neural network architectures using Effective Neural Architecture Search and AutoKeras, enhancing model performance to a notable accuracy of 96%. </li>
+	  <li>The project delivered a high-performance image search platform that significantly improved the speed and accuracy of image retrieval processes.</li> 
   </ul>    
   </div>
 </div>
@@ -51,7 +51,7 @@ function ExperienceSection() {
     </div>
     <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
     <div className="mb-4">
-    <div className="font-bold text-slate-900">Data Science Intern</div>
+    <div className="font-bold text-slate-900">Data Scientist</div>
   <div className="flex justify-between items-center">
     <div className="font-bold text-slate-900">Accenture</div>
     <time className="font-caveat font-medium text-amber-500">Jan 2020 - June 2020</time>
@@ -149,14 +149,15 @@ function ExperienceSection() {
     <div className="font-bold text-slate-900">Data Science Intern</div>
   <div className="flex justify-between items-center">
     <div className="font-bold text-slate-900">BobiHealth</div>
-    <time className="font-caveat font-medium text-amber-500">August 2023 - December 2023</time>
+    <time className="font-caveat font-medium text-amber-500">August 2023 - May 2024</time>
   </div>
   </div>
   <ul className="list-disc text-slate-500 space-y-1 pl-5">
-  <li> Developed a real-time chatbot integrated with advanced NLP models like Hugging Face Transformers, GPT, RAG, LoRA, and Llama2 </li>
-    <li>Designed AI model for pregnancy risk analysis (90% accuracy) using XGBoost and collected data for analysis from NCBI, CDC.gov, and various health datasets.</li>
-    <li>Utilized R and advanced data analytics methodologies to analyze pregnancy risk datasets, expertly writing large-scale ad-hoc SQL queries and creating interactive KPI metrics in Tableau</li>
-  </ul> 
+  <li>	Developed an NLP-driven chatbot leveraging Hugging Face Transformers, GPT, RAG, RLHF, ChromaDB, and FastAPI boosted user engagement and efficiency by 25% with 90% retrieval accuracy.</li>
+  <li>Designed AI model for pregnancy risk analysis (90% accuracy) using Random Forest and collected data for analysis from public health datasets. Engineered data pipelines and provided predictive analytics with Azure Databricks.</li>
+  <li>Orchestrated Airflow workflows for model training and deployment; optimized CI/CD pipelines and python data modeling to AWS S3, increasing agility by 15%. Incorporated GDPR principles through FMEA ensuring compliance and data protection.</li>
+  <li>Utilized R and advanced data analytics methodologies to analyze pregnancy risk datasets, expertly writing large-scale ad-hoc SQL queries and creating interactive visualizations and KPI metrics.</li>
+ </ul> 
     </div>
 </div>
 
