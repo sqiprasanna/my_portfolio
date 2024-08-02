@@ -136,7 +136,7 @@ function ExperienceSection() {
               </div>
             </div>
             <ul className="list-disc text-slate-500 space-y-1 pl-5">
-              <li>Developed a scalable Big Data image search engine, leveraging Java, PySpark, and Kafka for data processing, integrated Elasticsearch with OpenAI's CLIP model via MLflow for efficient image retrieval, product analytics.</li>
+              <li>Developed a scalable Big Data image search engine, leveraging Java, PySpark, and Kafka for data processing, integrated Elasticsearch with OpenAI&apos;s CLIP model via MLflow for efficient image retrieval, product analytics.</li>
             </ul>
           </div>
         </div>
