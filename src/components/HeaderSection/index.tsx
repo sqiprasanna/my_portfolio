@@ -51,7 +51,7 @@ function HeaderSection() {
               ariaLabel=""
               buttonType="secondary"
               onClick={() => {
-                window.open("https://drive.google.com/file/d/1hCvPmPQ1vPpkkUDSQ4cZpxELDMXNeo2w/view?usp=sharing", '_blank');
+                window.open("https://drive.google.com/file/d/1mnbT9Bt6gtE-FiLQjcvLyv-f_vNeB8f6/view?usp=sharing", '_blank');
               }}
               buttonText="See My Resume"
             />
