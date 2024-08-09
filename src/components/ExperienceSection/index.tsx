@@ -94,7 +94,7 @@ function ExperienceSection() {
             </div>
             <ul className="list-disc text-slate-500 space-y-1 pl-5">
               <li>Developed a recommendation system employing Neural Collaborative Filtering, Autoencoders, and SVD + Neural Network, achieving optimal performance with an 18% drop in RMSE and MAE. Elevated cloud operations using AWS S3 and EC2.</li>
-              <li>Developed a scalable Big Data image search engine, leveraging Java, PySpark, and Kafka for data processing, integrated Elasticsearch with OpenAI's CLIP model via MLflow for efficient image retrieval, product analytics.</li>
+              <li>Developed a scalable Big Data image search engine, leveraging Java, PySpark, and Kafka for data processing, integrated Elasticsearch with OpenAI&apos;s CLIP model via MLflow for efficient image retrieval, product analytics.</li>
               <li>Deployed YOLOv4 on AWS with Redis, achieving 95% accuracy for real-time mobile usage detection and a 25% efficiency boost; utilized R to enhance bus battery efficiency by 15% and reduce costs by 10%.</li>
             </ul>
           </div>
