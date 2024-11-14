@@ -25,7 +25,7 @@ function ExperienceSection() {
             <ul className="list-disc text-slate-500 space-y-1 pl-5">
               <li>Developed customer service chatbots using Retrieval-Augmented Generation (RAG) architecture with AWS infrastructure, integrating models like Claude, Mistral, and LLaMA via AWS Bedrock, and utilizing GraphRAG.</li>
               <li>Deployed and monitored an end-to-end pipeline using AWS services like Knowledge bases, Lambda, Step Functions, DynamoDB, OpenSearch, Grafana, CloudWatch, and ECR, optimizing document management and data retrieval.</li>
-              <li>Built an AI-driven 'Next Best Actions' solution, boosting customer engagement by 30% and reducing response time by 25%, enhancing satisfaction and retention.</li>
+              <li>Built an AI-driven &apos;Next Best Actions&apos; solution, boosting customer engagement by 30% and reducing response time by 25%, enhancing satisfaction and retention.</li>
               <li>Cut latency in retrieving customer service answers by 50%, reducing call representative workload by 20% monthly.</li>
               <li>Evaluated pipeline performance with RAGAS, enhancing model efficiency by 10%.</li>
               <li>Scaled chatbot applications across various operational areas at Republic Services, influencing a $20M budget.</li>
