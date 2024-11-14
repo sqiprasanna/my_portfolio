@@ -113,7 +113,7 @@ function ExperienceSection() {
             <div className="mb-4">
               <div className="font-bold text-slate-900">Data Scientist</div>
               <div className="flex justify-between items-center">
-                <div className="font-bold text-slate-900">Flutura Decision Sciences and Analytics</div>
+                <div className="font-bold text-slate-900">Accenture</div>
                 <time className="font-caveat font-medium text-amber-500">Jan 2020 – Jun 2020</time>
               </div>
             </div>
