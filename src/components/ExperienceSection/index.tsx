@@ -55,6 +55,27 @@ function ExperienceSection() {
           </div>
         </div>
 
+        <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+          <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+            <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+              <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+            </svg>
+          </div>
+          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+            <div className="mb-4">
+              <div className="font-bold text-slate-900">Teaching Assistant</div>
+              <div className="flex justify-between items-center">
+                <div className="font-bold text-slate-900">San Jose State Univeristy</div>
+                <time className="font-caveat font-medium text-amber-500">Aug 2020 – Nov 2020</time>
+              </div>
+            </div>
+            <ul className="list-disc text-slate-500 space-y-1 pl-5">
+              <li>Assisted in teaching a Machine Learning course to 40 undergraduate students, delivering hands-on coding labs and practical assignments to solidify core ML concepts.</li>
+              <li>Provided one-on-one support and clarified doubts, fostering a strong learning environment that contributed to a pass rate of over 95%.</li>
+              <li>Guided students in exploring ML and Data Science careers, nurturing their skills and interest in the field through real-world projects and problem-solving sessions.</li>
+            </ul>
+          </div>
+        </div>
         <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="12">
@@ -80,27 +101,7 @@ function ExperienceSection() {
           </div>
         </div>
 
-        {/* <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-          <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-            <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
-              <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
-            </svg>
-          </div>
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
-            <div className="mb-4">
-              <div className="font-bold text-slate-900">Generative AI Developer</div>
-              <div className="flex justify-between items-center">
-                <div className="font-bold text-slate-900">Freelance</div>
-                <time className="font-caveat font-medium text-amber-500">Aug 2020 – Nov 2020</time>
-              </div>
-            </div>
-            <ul className="list-disc text-slate-500 space-y-1 pl-5">
-              <li>Initiated a project focused on the generation of photorealistic Indian faces using Generative Adversarial Networks (GANs), contributing to the diversity in synthetic image generation.</li>
-              <li>Curated a unique dataset of 20,000 Indian facial images through extensive web scraping, ensuring a wide representation of features and expressions.</li>
-              <li>Employed advanced GAN architectures, including DcGAN and StyleGAN, and trained the models on high-end GPUs to produce high-fidelity facial images with precise detail and variability.</li>
-            </ul>
-          </div>
-        </div> */}
+    
 
         <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
